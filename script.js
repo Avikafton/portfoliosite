@@ -288,12 +288,12 @@ document.addEventListener("DOMContentLoaded", () => {
     show(0);
 
     right.addEventListener("click", () => {
-      current = (current + 1) % media.length;
+      current = (current + 1) % items.length;
       show(current);
     });
 
     left.addEventListener("click", () => {
-      current = (current - 1 + media.length) % media.length;
+      current = (current - 1 + items.length) % items.length;
       show(current);
     });
   }
