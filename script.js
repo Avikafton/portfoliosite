@@ -287,6 +287,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     show(0);
 
+    // Ensure mobile can click links inside popup
+    const links = popupContent.querySelectorAll('.site-link');
+    links.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.stopPropagation();
+      });
+    });
+
     right.addEventListener("click", () => {
       current = (current + 1) % items.length;
       show(current);
