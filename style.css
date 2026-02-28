@@ -7,18 +7,6 @@ html {
   --y:50%;
 }
 
-@font-face {
-  font-family:'Placard Next';
-  src:url('fonts/PlacardNext-Regular.woff2') format('woff2');
-  font-weight:normal;
-  font-style:normal;
-  font-display:swap;
-}
-
-@font-face {
-  font-family:'TTFirs';
-  src:url('fonts/TTFirsNeue-Regular.woff2') format('woff2');
-}
 /* ======================================================
    RESET & BASE
 ====================================================== */
