@@ -61,7 +61,6 @@ h1,h2,h3,.name {
 .name {
   font-size:70px;
   letter-spacing:3px;
-  white-space:nowrap;
   color:#1e1e1e;
   text-shadow:
     0 2px 0 rgba(255,255,255,0.95),
