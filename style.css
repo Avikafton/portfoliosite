@@ -773,16 +773,12 @@ h1,h2,h3,.name {
 
   @media (max-width: 600px) {
 
+    /* ===== PERFORMANCE OPTIMIZATIONS ===== */
 
-
-    .popup-overlay {
-      backdrop-filter: none;
-      background: rgba(230,232,236,0.95);
-    }
-
-    body::before {
-      display: none;
-    }
+   .popup-overlay {
+  backdrop-filter: none;
+  background: rgba(230,232,236,0.95);
+}
 
     .projects,
     .skills-panel,
@@ -790,6 +786,10 @@ h1,h2,h3,.name {
       box-shadow:
         8px 8px 18px rgba(0,0,0,0.12),
         -8px -8px 18px rgba(255,255,255,0.8);
+    }
+
+    body::before {
+      display: none;
     }
 
     /* ===== HERO ===== */
@@ -807,7 +807,6 @@ h1,h2,h3,.name {
     .name {
       font-size: 42px;
       letter-spacing: 2px;
-      white-space: normal;
     }
 
     .subtitle {
@@ -831,7 +830,6 @@ h1,h2,h3,.name {
       margin: 0 auto 24px auto;
       padding: 14px 20px;
       text-align: center;
-      flex-wrap: wrap;
     }
 
     .tag-row span {
@@ -897,6 +895,7 @@ h1,h2,h3,.name {
       flex-direction: column;
       align-items: center;
       justify-content: flex-start;
+      aspect-ratio: auto;
       gap: 20px;
       margin-top: 10px;
     }
@@ -938,6 +937,14 @@ h1,h2,h3,.name {
       height: 44px;
     }
 
+    .popup-arrow:hover {
+      opacity: 0.95;
+      transform: scale(1.03);
+      box-shadow:
+        6px 6px 14px rgba(0,0,0,0.2),
+        -6px -6px 14px rgba(255,255,255,0.95);
+    }
+
     .popup-arrow.left {
       left: 18px;
     }
@@ -975,6 +982,7 @@ h1,h2,h3,.name {
       left: 50%;
       transform: translateX(-50%);
       width: 60%;
+      margin: 0 auto;
     }
 
     .contact-right {

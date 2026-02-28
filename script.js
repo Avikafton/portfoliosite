@@ -257,27 +257,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const overlayTitle = popupContent.querySelector(".popup-overlay-title");
     const overlayDescription = popupContent.querySelector(".popup-overlay-description");
 
-    track.innerHTML = typeof items[0] === "string"
-      ? items[0]
-      : items[0].html;
+    track.innerHTML = items.map(i => typeof i === "string" ? i : i.html).join("");
 
     let current = 0;
-    let media = track.querySelectorAll(".popup-media");
+    const media = track.querySelectorAll(".popup-media");
     const left = popupContent.querySelector(".popup-arrow.left");
     const right = popupContent.querySelector(".popup-arrow.right");
 
     function show(i){
-    
-      if (!track.children[i]) {
-        const newSlide = typeof items[i] === "string"
-          ? items[i]
-          : items[i].html;
-        track.insertAdjacentHTML("beforeend", newSlide);
-        media = track.querySelectorAll(".popup-media");
-      }
-
       media.forEach(m => m.classList.remove("active"));
-      if (media[i]) media[i].classList.add("active");
+      if(media[i]) media[i].classList.add("active");
 
       if(typeof items[i] === "object"){
         if(overlayTitle) overlayTitle.textContent = items[i].title || "";
@@ -287,20 +276,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     show(0);
 
-    const links = popupContent.querySelectorAll('.site-link');
-    links.forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.stopPropagation();
-      });
-    });
-
     right.addEventListener("click", () => {
-      current = (current + 1) % items.length;
+      current = (current + 1) % media.length;
       show(current);
     });
 
     left.addEventListener("click", () => {
-      current = (current - 1 + items.length) % items.length;
+      current = (current - 1 + media.length) % media.length;
       show(current);
     });
   }
@@ -312,18 +294,11 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  if (popup) {
+  if(popup){
     popup.addEventListener("click", (e) => {
       if (e.target.classList.contains("popup-overlay")) {
         popup.classList.remove("active");
       }
-    });
-  }
-
-  // Prevent popup content clicks (including links) from closing the popup
-  if (popupContent) {
-    popupContent.addEventListener("click", (e) => {
-      e.stopPropagation();
     });
   }
 
