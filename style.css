@@ -789,6 +789,7 @@ h1,h2,h3,.name {
       grid-template-columns: 1fr;
       gap: 40px;
       text-align: center;
+      margin: 15px;
     }
 
     .tag-row {
@@ -848,7 +849,6 @@ h1,h2,h3,.name {
     .contact-icons {
       justify-content: center;
     }
-
 
     .name {
       font-size: 42px;
@@ -989,11 +989,11 @@ h1,h2,h3,.name {
       width: 100%;
       max-width: 220px;
     }
-  
-  }
-  
+
     .project-label {
       display: block;
       text-align: center;
       margin: 10px 0 0 0;
     }
+
+  }
