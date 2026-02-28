@@ -789,14 +789,7 @@ h1,h2,h3,.name {
     }
 
     .onepager {
-      padding: 0 16px; /* consistent container spacing */
-    }
-
-    .top-section {
-      grid-template-columns: 1fr;
-      gap: 40px;
-      text-align: center;
-      margin: 0;
+      padding: 0 16px; 
     }
 
     .tag-row {
@@ -805,16 +798,8 @@ h1,h2,h3,.name {
       gap: 10px;
       max-width: 420px;
       width: 100%;
-      margin: 0 auto 24px auto;
-      padding: 14px 20px;
-      text-align: center;
     }
-
-  
-    .hero-art {
-      display: none;
-    }
-  
+ 
     .hero-me-big {
       width: 180px;
     }
