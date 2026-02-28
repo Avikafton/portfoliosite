@@ -777,6 +777,7 @@ h1,h2,h3,.name {
 
     .popup-overlay {
       backdrop-filter: none;
+      pointer-events: none;
       background: rgba(230,232,236,0.95);
     }
 
