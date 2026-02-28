@@ -257,33 +257,47 @@ document.addEventListener("DOMContentLoaded", () => {
     const overlayTitle = popupContent.querySelector(".popup-overlay-title");
     const overlayDescription = popupContent.querySelector(".popup-overlay-description");
 
-    track.innerHTML = items.map(i => typeof i === "string" ? i : i.html).join("");
-
     let current = 0;
-    const media = track.querySelectorAll(".popup-media");
+    let media = [];
     const left = popupContent.querySelector(".popup-arrow.left");
     const right = popupContent.querySelector(".popup-arrow.right");
 
-    function show(i){
+    function renderSlide(i){
+
+      // Inject slide only if not already created
+      if (!track.children[i]) {
+        const slideHTML = typeof items[i] === "string"
+          ? items[i]
+          : items[i].html;
+
+        track.insertAdjacentHTML("beforeend", slideHTML);
+      }
+
+      media = track.querySelectorAll(".popup-media");
+
       media.forEach(m => m.classList.remove("active"));
-      if(media[i]) media[i].classList.add("active");
+      if (media[i]) media[i].classList.add("active");
 
       if(typeof items[i] === "object"){
         if(overlayTitle) overlayTitle.textContent = items[i].title || "";
         if(overlayDescription) overlayDescription.innerHTML = items[i].text || "";
+      } else {
+        if(overlayTitle) overlayTitle.textContent = "";
+        if(overlayDescription) overlayDescription.innerHTML = "";
       }
     }
 
-    show(0);
+
+    renderSlide(0);
 
     right.addEventListener("click", () => {
-      current = (current + 1) % media.length;
-      show(current);
+      current = (current + 1) % items.length;
+      renderSlide(current);
     });
 
     left.addEventListener("click", () => {
-      current = (current - 1 + media.length) % media.length;
-      show(current);
+      current = (current - 1 + items.length) % items.length;
+      renderSlide(current);
     });
   }
 
