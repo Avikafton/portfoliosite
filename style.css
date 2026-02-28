@@ -853,8 +853,6 @@ h1,h2,h3,.name {
     .name {
       font-size: 42px;
       letter-spacing: 2px;
-      white-space: normal;      /* allow wrapping on mobile */
-      word-break: break-word;   /* prevent overflow */
     }
   
     .subtitle {
