@@ -778,30 +778,35 @@ h1,h2,h3,.name {
   border-bottom:2px solid #1a0dab;
 }
 
-
-  /* ======================================================
+ /* ======================================================
      RESPONSIVE
   ====================================================== */
   
-  @media (max-width: 900px) {
+  @media (max-width: 600px) {
   
     .top-section {
       grid-template-columns: 1fr;
-      gap: 40px;
       text-align: center;
+    }
+
+    .top-left {
+      max-width: 380px;
     }
 
     .tag-row {
       display: flex;
       justify-content: center;
       gap: 10px;
-      max-width: 420px;
+      max-width: 380px;
       width: 100%;
       margin: 0 auto 24px auto;
       padding: 14px 20px;
       text-align: center;
     }
 
+    .tag-row span {
+      font-size: 12px;
+    }
   
     .hero-art {
       display: none;
@@ -827,7 +832,7 @@ h1,h2,h3,.name {
   
     .internship-box {
       margin: 40px auto 0 auto;
-      max-width: 420px;
+      max-width: 400px;
       width: 100%;
       padding: 0;
       text-align: center;
@@ -849,7 +854,6 @@ h1,h2,h3,.name {
       justify-content: center;
     }
 
-
     .name {
       font-size: 42px;
       letter-spacing: 2px;
@@ -860,7 +864,7 @@ h1,h2,h3,.name {
     }
 
     .intro-text {
-      max-width: 100%;
+      max-width: 380px;
       font-size: 14px;
       margin: 0 0 28px 0;
       padding: 0;
@@ -898,8 +902,9 @@ h1,h2,h3,.name {
       left: 0;
       padding: 0;
       margin: 0 auto;
-      max-width: 420px;
+      max-width: 400px;
       width: 100%;
+      pointer-events: none;
       text-align: left;
     }
 
@@ -951,17 +956,15 @@ h1,h2,h3,.name {
   
     .skills-panel,
     .projects {
-      max-width: 420px;
+      max-width: 400px;
       width: 100%;
       margin: 0 auto;
     }
 
-
-
     .top-left,
     .internship-box,
     .bottom-contact {
-      max-width: 420px;
+      max-width: 400px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -980,7 +983,7 @@ h1,h2,h3,.name {
 
     .bottom-contact p,
     .internship-box p {
-      max-width: 420px;
+      max-width: 400px;
       margin: 0 auto;
       text-align: center;
     }
@@ -996,4 +999,27 @@ h1,h2,h3,.name {
       display: block;
       text-align: center;
       margin: 10px 0 0 0;
+    }
+
+    @media (max-width: 600px) {
+      .popup-overlay {
+        backdrop-filter: none;
+        background: rgba(230,232,236,0.95);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .projects,
+      .skills-panel,
+      .popup-box {
+        box-shadow:
+          8px 8px 18px rgba(0,0,0,0.12),
+          -8px -8px 18px rgba(255,255,255,0.8);
+      }
+    }
+
+    @media (max-width: 600px) {
+      body::before {
+        display: none;
+      }
     }
