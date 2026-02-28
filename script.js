@@ -188,24 +188,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
       else if(type === "illustration"){
         createSlider([
-          `<img class="popup-media active" src="img/ai1.png">`,
-          `<img class="popup-media" src="img/ai2.png">`,
-          `<img class="popup-media" src="img/ai3.png">`,
-          `<img class="popup-media" src="img/ai4.png">`,
-          `<img class="popup-media" src="img/ai5.png">`,
-          `<img class="popup-media" src="img/ai6.png">`,
-          `<img class="popup-media" src="img/ai7.png">`,
-          `<img class="popup-media" src="img/ai8.png">`,
-          `<img class="popup-media" src="img/ai9.png">`,
-          `<img class="popup-media" src="img/ai10.png">`,
-          `<img class="popup-media" src="img/ai11.png">`,
-          `<img class="popup-media" src="img/ai12.png">`,
-          `<img class="popup-media" src="img/ai13.png">`,
-          `<img class="popup-media" src="img/ai14.png">`,
-            `<img class="popup-media" src="img/ai15.png">`,
-              `<img class="popup-media" src="img/ai16.png">`,
-                `<img class="popup-media" src="img/ai17.png">`,
-                  `<img class="popup-media" src="img/ai18.png">`
+          `<img class="popup-media active" src="img/ai1.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai2.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai3.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai4.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai5.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai6.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai7.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai8.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai9.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai10.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai11.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai12.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai13.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai14.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai15.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai16.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai17.webp" loading="lazy">`,
+          `<img class="popup-media" src="img/ai18.webp" loading="lazy">`
         ]);
       }
 
