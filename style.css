@@ -770,9 +770,30 @@ h1,h2,h3,.name {
   /* ======================================================
      RESPONSIVE
   ====================================================== */
-  
+
   @media (max-width: 600px) {
-  
+
+    /* ===== PERFORMANCE OPTIMIZATIONS ===== */
+
+    .popup-overlay {
+      backdrop-filter: none;
+      background: rgba(230,232,236,0.95);
+    }
+
+    .projects,
+    .skills-panel,
+    .popup-box {
+      box-shadow:
+        8px 8px 18px rgba(0,0,0,0.12),
+        -8px -8px 18px rgba(255,255,255,0.8);
+    }
+
+    body::before {
+      display: none;
+    }
+
+    /* ===== HERO ===== */
+
     .top-section {
       grid-template-columns: 1fr;
       text-align: center;
@@ -780,6 +801,24 @@ h1,h2,h3,.name {
 
     .top-left {
       max-width: 380px;
+      margin: 0 auto;
+    }
+
+    .name {
+      font-size: 42px;
+      letter-spacing: 2px;
+    }
+
+    .subtitle {
+      font-size: 11px;
+    }
+
+    .intro-text {
+      max-width: 380px;
+      font-size: 14px;
+      margin: 0 auto 28px auto;
+      text-align: justify;
+      text-align-last: left;
     }
 
     .tag-row {
@@ -796,87 +835,62 @@ h1,h2,h3,.name {
     .tag-row span {
       font-size: 12px;
     }
-  
+
     .hero-art {
       display: none;
     }
-  
+
     .hero-me-big {
       width: 180px;
     }
-  
+
+    /* ===== MIDDLE SECTION ===== */
+
     .middle-section {
       grid-template-columns: 1fr;
       gap: 60px;
     }
-  
-    .project-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  
+
     .projects,
     .skills-panel {
-      padding: 30px 20px;
-    }
-  
-    .internship-box {
-      margin: 40px auto 0 auto;
       max-width: 400px;
       width: 100%;
-      padding: 0;
-      text-align: center;
-    }
-  
-    .bottom-contact {
-      grid-template-columns: 1fr;
-      gap: 40px;
-      text-align: center;
-    }
-  
-    .contact-right {
-      align-items: center;
-      text-align: center;
-      margin-right: 0;
-    }
-  
-    .contact-icons {
-      justify-content: center;
+      margin: 0 auto;
+      padding: 30px 20px;
     }
 
-
-    .name {
-      font-size: 42px;
-      letter-spacing: 2px;
-    }
-  
-    .subtitle {
-      font-size: 11px;
-    }
-
-    .intro-text {
-      max-width: 380px;
-      font-size: 14px;
-      margin: 0 0 28px 0;
-      padding: 0;
-      text-align: justify;
-      text-align-last: left;
-    }
-  
     .project-grid {
       grid-template-columns: repeat(2, 1fr);
       gap: 18px;
     }
-  
+
     .project-card img {
       max-width: 120px;
     }
-  
+
+    .project-label {
+      display: block;
+      text-align: center;
+      margin: 10px 0 0 0;
+    }
+
+    .skill-pill {
+      max-width: 100%;
+    }
+
+    .tools-wrapper {
+      width: 100%;
+      max-width: 220px;
+    }
+
+    /* ===== POPUP ===== */
+
     .popup-box {
       padding: 40px 20px 90px 20px;
     }
-  
+
     .popup-slider {
-      position: static; 
+      position: static;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -885,7 +899,7 @@ h1,h2,h3,.name {
       gap: 20px;
       margin-top: 10px;
     }
-  
+
     .popup-overlay-text {
       position: relative;
       top: 0;
@@ -912,7 +926,7 @@ h1,h2,h3,.name {
     .popup-media[src*="ai"] {
       max-width: 80%;
     }
-  
+
     .popup-arrow {
       position: absolute;
       bottom: 18px;
@@ -939,29 +953,30 @@ h1,h2,h3,.name {
     .popup-arrow.right {
       right: 18px;
     }
-  
-    .skill-pill {
-      max-width: 100%;
-    }
-  
-    .skills-panel,
-    .projects {
+
+    /* ===== INTERNSHIP + CONTACT ===== */
+
+    .internship-box {
+      margin: 40px auto 0 auto;
       max-width: 400px;
       width: 100%;
-      margin: 0 auto;
+      text-align: center;
     }
 
-    .top-left,
-    .internship-box,
-    .bottom-contact {
+    .internship-box p,
+    .bottom-contact p {
       max-width: 400px;
-      margin-left: auto;
-      margin-right: auto;
+      margin: 0 auto;
+      text-align: center;
     }
 
     .bottom-contact {
       grid-template-columns: 1fr;
+      gap: 40px;
       text-align: center;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .bottom-contact::before {
@@ -971,22 +986,14 @@ h1,h2,h3,.name {
       margin: 0 auto;
     }
 
-    .bottom-contact p,
-    .internship-box p {
-      max-width: 400px;
-      margin: 0 auto;
+    .contact-right {
+      align-items: center;
       text-align: center;
+      margin-right: 0;
     }
-  
-    .tools-wrapper {
-      width: 100%;
-      max-width: 220px;
+
+    .contact-icons {
+      justify-content: center;
     }
-  
+
   }
-  
-    .project-label {
-      display: block;
-      text-align: center;
-      margin: 10px 0 0 0;
-    }
