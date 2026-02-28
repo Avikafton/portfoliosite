@@ -61,6 +61,7 @@ h1,h2,h3,.name {
 .name {
   font-size:70px;
   letter-spacing:3px;
+  white-space:nowrap;
   color:#1e1e1e;
   text-shadow:
     0 2px 0 rgba(255,255,255,0.95),
@@ -783,23 +784,28 @@ h1,h2,h3,.name {
   ====================================================== */
   
   @media (max-width: 600px) {
-
-    body {
-      overflow-x: hidden;
-    }
-
-    .onepager {
-      padding: 0 16px; 
+  
+    .top-section {
+      grid-template-columns: 1fr;
+      text-align: center;
     }
 
     .tag-row {
       display: flex;
       justify-content: center;
       gap: 10px;
-      max-width: 420px;
+      max-width: 400px;
       width: 100%;
+      margin: 0 auto 24px auto;
+      padding: 14px 20px;
+      text-align: center;
     }
- 
+
+  
+    .hero-art {
+      display: none;
+    }
+  
     .hero-me-big {
       width: 180px;
     }
@@ -816,14 +822,11 @@ h1,h2,h3,.name {
     .projects,
     .skills-panel {
       padding: 30px 20px;
-      width: 100%;
-      max-width: 420px;
-      margin: 0 auto; 
     }
   
     .internship-box {
       margin: 40px auto 0 auto;
-      max-width: 420px;
+      max-width: 400px;
       width: 100%;
       padding: 0;
       text-align: center;
@@ -845,12 +848,10 @@ h1,h2,h3,.name {
       justify-content: center;
     }
 
+
     .name {
-      font-size: 34px;
-      letter-spacing: 1px;
-      white-space: normal;   /* allow wrapping */
-      word-break: break-word;
-      text-align: center;
+      font-size: 42px;
+      letter-spacing: 2px;
     }
   
     .subtitle {
@@ -896,7 +897,7 @@ h1,h2,h3,.name {
       left: 0;
       padding: 0;
       margin: 0 auto;
-      max-width: 420px;
+      max-width: 400px;
       width: 100%;
       text-align: left;
     }
@@ -947,11 +948,19 @@ h1,h2,h3,.name {
       max-width: 100%;
     }
   
+    .skills-panel,
+    .projects {
+      max-width: 400px;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+
 
     .top-left,
     .internship-box,
     .bottom-contact {
-      max-width: 420px;
+      max-width: 400px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -970,7 +979,7 @@ h1,h2,h3,.name {
 
     .bottom-contact p,
     .internship-box p {
-      max-width: 420px;
+      max-width: 400px;
       margin: 0 auto;
       text-align: center;
     }
@@ -979,11 +988,11 @@ h1,h2,h3,.name {
       width: 100%;
       max-width: 220px;
     }
-
+  
+  }
+  
     .project-label {
       display: block;
       text-align: center;
       margin: 10px 0 0 0;
     }
-
-  }
