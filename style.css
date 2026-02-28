@@ -783,7 +783,7 @@ h1,h2,h3,.name {
      RESPONSIVE
   ====================================================== */
   
-  @media (max-width: 900px) {
+  @media (max-width: 600px) {
   
     .top-section {
       grid-template-columns: 1fr;
