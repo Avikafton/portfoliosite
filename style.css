@@ -866,7 +866,7 @@ h1,h2,h3,.name {
     }
 
     .intro-text {
-      max-width: 100%;
+      max-width: 380px;
       font-size: 14px;
       margin: 0 0 28px 0;
       padding: 0;
