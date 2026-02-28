@@ -18,7 +18,7 @@ html {
 
 body {
   background:#e6e8ec;
-  font-family:'TTFirs', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   color:#1e1e1e;
   opacity:0;
   animation:pageFade .9s ease forwards;
@@ -43,7 +43,7 @@ body::before {
   TYPOGRAPHY
 ====================================================== */
 h1,h2,h3,.name {
-  font-family:'Placard Next', Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .name {
@@ -529,7 +529,7 @@ h1,h2,h3,.name {
 }
 
 .popup-overlay-title{
-  font-family:'Placard Next', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size:20px;
   margin-bottom:8px;
   margin-top: 12px;
@@ -622,7 +622,7 @@ h1,h2,h3,.name {
   align-items:center;
   justify-content:center;
   transition:transform .3s ease;
-  font-family:'Placard Next', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size:16px;
   letter-spacing:2px;
   color:#1e1e1e;
@@ -670,7 +670,7 @@ h1,h2,h3,.name {
   align-items:center;
   justify-content:center;
   transition:transform .3s ease;
-  font-family:'Placard Next', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size:14px;
   letter-spacing:2px;
   color:#1e1e1e;
