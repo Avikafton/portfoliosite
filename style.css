@@ -791,7 +791,7 @@ h1,h2,h3,.name {
     }
 
     .top-left {
-      max-width: 400px;
+      max-width: 0;
     }
 
     .tag-row {
@@ -801,13 +801,8 @@ h1,h2,h3,.name {
       max-width: 400px;
       width: 100%;
       margin: 0 auto 24px auto;
-      padding: 14px 36px;
+      padding: 14px 20px;
       text-align: center;
-    }
-
-    .tag-row span{
-      font-size: 12px;
-      letter-spacing: 1px;
     }
 
   
