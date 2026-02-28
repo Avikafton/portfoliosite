@@ -609,7 +609,7 @@ h1,h2,h3,.name {
 
 .linkedin-btn {
   position:relative;
-  background: url('img/cta.png') no-repeat center center;
+  background: url('img/cta.webp') no-repeat center center;
   background-size: contain;
   width:170px;
   height:52px;
@@ -657,7 +657,7 @@ h1,h2,h3,.name {
 
 .site-link{
   position:relative;
-  background: url('img/cta.png') no-repeat center center;
+  background: url('img/cta.webp') no-repeat center center;
   background-size: contain;
   width:150px;
   height:60px;
