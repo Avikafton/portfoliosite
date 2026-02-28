@@ -305,11 +305,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  if(popup){
+  if (popup) {
     popup.addEventListener("click", (e) => {
       if (e.target.classList.contains("popup-overlay")) {
         popup.classList.remove("active");
       }
+    });
+  }
+
+  // Prevent popup content clicks (including links) from closing the popup
+  if (popupContent) {
+    popupContent.addEventListener("click", (e) => {
+      e.stopPropagation();
     });
   }
 
