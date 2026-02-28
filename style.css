@@ -20,8 +20,6 @@ body {
   background:#e6e8ec;
   font-family: Arial, sans-serif;
   color:#1e1e1e;
-  opacity:0;
-  animation:pageFade .9s ease forwards;
   position:relative;
   overflow-x:hidden;
 }
@@ -36,9 +34,6 @@ body::before {
   z-index:-1;
 }
 
-@keyframes pageFade {
-  to{opacity:1;}
-}
 /* ======================================================
   TYPOGRAPHY
 ====================================================== */
