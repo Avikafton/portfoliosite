@@ -166,17 +166,17 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             html:`<img class="popup-media" src="img/port-site.png">`,
             title:"Tidligere Portfolio",
-            text:"<strong>Eksamensprojekt (1. semester):</strong> Portfolio-website med fokus på layout, typografisk hierarki og projektpræsentation. Alle illustrationer (MacBook, dockpanel m.m.) er tegnet i Adobe Illustrator. <br><br><a href='https://avikafton.netlify.app/portfolio' target='_blank' class='site-link'>Se sitet her</a>"
+            text:"<strong>Eksamensprojekt (1. semester):</strong> Portfolio-website med fokus på layout, typografisk hierarki og projektpræsentation. Alle illustrationer (MacBook, dockpanel m.m.) er tegnet i Adobe Illustrator. <br><br><a href='https://clinquant-duckanoo-808aff.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
           },
           {
             html:`<img class="popup-media" src="img/interactive-web.png">`,
             title:"Interaktivt SVG-kort",
-            text:"<strong>Case:</strong> Interaktivt kort udviklet i SVG med fokus på struktur, attributter og brugerinteraktion. Kortet er designet i Illustrator og gjort dynamisk med JavaScript. <br><br><a href='https://mycitycard.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
+            text:"<strong>Case:</strong> Interaktivt kort udviklet i SVG med fokus på struktur, attributter og brugerinteraktion. Kortet er designet i Illustrator og gjort dynamisk med JavaScript. <br><br><a href='https://interactive-svg.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
           },
           {
             html:`<img class="popup-media" src="img/visit.png">`,
             title:"Assistens-app",
-            text:"<strong>Case:</strong> Website udviklet som præsentations- og informationsplatform for en kulturel Assistens-app. <br><br><a href='https://assistens-site.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
+            text:"<strong>Case:</strong> Website udviklet som præsentations- og informationsplatform for en kulturel Assistens-app. <br><br><a href='https://kafton-assistens.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
           },
           {
             html:`<img class="popup-media" src="img/ocd-web.png">`,
