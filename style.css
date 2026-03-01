@@ -103,7 +103,7 @@ h1,h2,h3,.name {
   border-radius:40px;
   display:inline-flex;
   gap:14px;
-  color:#fca3bd;
+  color:#e6e8ec;
   font-size:14px;
   box-shadow:
     8px 8px 18px rgba(0,0,0,0.35),
@@ -136,7 +136,7 @@ h1,h2,h3,.name {
 }
 
 .hero-me-big {
-  width:240px;
+  width:350px;
   position:relative;
   z-index:0;   
   display:block;
@@ -796,7 +796,8 @@ h1,h2,h3,.name {
     }
   
     .hero-me-big {
-      width: 180px;
+      width: 450px;
+      margin-top: -30px;
     }
   
     .middle-section {
