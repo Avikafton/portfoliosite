@@ -848,12 +848,13 @@ h1,h2,h3,.name {
     }
 
     .intro-text {
+      margin: 20px auto 0 auto;
       max-width: 400px;
-      font-size: 15.7px;
-      margin: 16px;
+      width: 100%;
+      padding: 12px;
       margin-bottom: 20px;
       text-align: justify;
-      text-align-last: center;
+
     }
   
     .project-grid {
