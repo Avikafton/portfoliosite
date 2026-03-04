@@ -54,10 +54,11 @@ h1,h2,h3,.name {
 }
 
 .subtitle {
-  font-size:13px;
-  letter-spacing:3px;
-  margin:12px 0 22px;
-  opacity:.65;
+  letter-spacing: 0.08em;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  margin-bottom: 20px;
+  margin-top: 5px;
 }
 
 .intro-text {
@@ -65,7 +66,6 @@ h1,h2,h3,.name {
   line-height:1.8;
   margin-bottom:28px;
   text-align:justify;
-  text-align-last:left;
   color:#2a2a2a;
 }
 /* ======================================================
@@ -796,7 +796,7 @@ h1,h2,h3,.name {
     }
   
     .hero-me-big {
-      width: 450px;
+      width: 400px;
       margin-top: -35px;  
     }
   
@@ -849,11 +849,10 @@ h1,h2,h3,.name {
 
     .intro-text {
       max-width: 380px;
-      font-size: 14px;
+      font-size: 15.7px;
       margin: 0 0 28px 0;
       padding: 0;
       text-align: justify;
-      text-align-last: left;
     }
   
     .project-grid {

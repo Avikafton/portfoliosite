@@ -111,17 +111,17 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             html:`<img class="popup-media active" src="img/news-app.webp">`,
             title:"Nyheds-app",
-            text:"<strong>Fiktiv case:</strong> Udkast til UI/UX-design af nyhedsapp med fokus på intuitiv navigation, <br> tydeligt typografisk hierarki og en rolig, brugervenlig læseoplevelse."
+            text:"Udvikling af <strong>UI/UX‑design</strong> til nyhedsapp med fokus på <strong>intuitiv navigation</strong>, tydeligt <strong>typografisk hierarki</strong> og en <strong>rolig læseoplevelse</strong>."
           },
           {
             html:`<img class="popup-media" src="img/studyplanner.webp">`,
             title:"Studyplanner",
-            text:"<strong>Fiktiv case:</strong> Design af studieplanlægningsapp med fokus på struktur, overblik og en motiverende brugeroplevelse for studerende eller individer med strukturvanskeligheder."
+            text:"Design af <strong>studieplanlægningsapp</strong> med fokus på <strong>struktur</strong>, <strong>overblik</strong> og en <strong>motiverende brugeroplevelse</strong> for studerende."
           },
           {
             html:`<img class="popup-media" src="img/foodhub.webp">`,
             title:"FoodHub",
-            text:"<strong>Case:</strong> API-genereret madplatform til inspiration – med fokus på intuitiv navigation, klar informationsstruktur samt filtering og sortering efter sværhedsgrad, tid og cuisine i menuen."
+            text:"Udvikling af <strong>API‑baseret madplatform</strong> med fokus på <strong>klar informationsstruktur</strong>, <strong>intuitiv navigation</strong> samt <strong>filtrering og sortering</strong> efter tid, sværhedsgrad og cuisine."
           }
         ]);
       }
@@ -131,27 +131,27 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             html:`<img class="popup-media active" src="img/toki.webp">`,
             title:"Toki",
-                       text:"<strong>Case:</strong> Udvikling af visuel identitet for virksomhed uden eksisterende designlinje <br> – med fokus på strategisk positionering inden for bæredygtig emballage."
+            text:"Udvikling af <strong>visuel identitet</strong> for virksomhed uden eksisterende designlinje <br> – med fokus på <strong>strategisk positionering</strong> inden for bæredygtig emballage."
           },
           {
             html:`<img class="popup-media" src="img/simgames.webp">`,
             title:"Simgames – The Clubhouse",
-            text:"<strong>Eksamensprojekt</strong> (2. semester) i samarbejde med Simgolf og deres søstersite, Simgames. <br> Strategisk udvikling af visuel identitet og designkoncept målrettet en yngre, eventorienteret målgruppe."
+            text:"<strong>Visuel identitet</strong> og <strong>designkoncept</strong> for Simgames på sociale medier og website i samarbejde med Simgolf - målrettet en yngre, eventorienteret målgruppe med fokus på et <strong>socialt og energisk udtryk</strong>."
           },
           {
             html:`<img class="popup-media" src="img/visit.webp">`,
             title:"Visit kampagne",
-            text:"<strong>Case:</strong> Konceptudvikling med fokus på autentiske oplevelser og kulturelt engagement for turister i København – herunder at inspirere besøgende til at opleve Assistens Kirkegården og de mange ikoniske navne, der er en del af stedets kulturarv."
+            text:"<strong>Konceptudvikling</strong> med fokus på <strong>autentiske oplevelser</strong> og <strong>kulturelt engagement</strong> for turister i København – herunder at inspirere besøgende til at opleve <strong>Assistens Kirkegården</strong> og de mange ikoniske navne, der er en del af stedets <strong>kulturarv</strong>."
           },
           {
             html:`<img class="popup-media" src="img/berrichi.webp">`,
             title:"Berrichi",
-            text:"<strong>Tidligere job:</strong> SoMe-ansvarlig og løbende opdatering af WordPress-hjemmeside for Berrichi Danmark. Fokus på at matche det urbane miljø i København og brandets nordiske æstetik."
+            text:"Udvikling og vedligeholdelse af <strong>SoMe-indhold</strong> samt opdatering af <strong>WordPress-website</strong> for Berrichi Danmark. Fokus på at understøtte <strong>brandets nordiske æstetik</strong> og et <strong>urbant visuelt udtryk</strong> målrettet miljøet i København."
           },
           {
             html:`<img class="popup-media" src="img/coffee.webp">`,
             title:"Fika Roasters",
-            text:"<strong>Fiktiv case:</strong> Kaffebrand udviklet til det københavnske byliv med fokus på en neutral, <br> earthy æstetik og et inspirerende rum for både den travle hverdag og for studerende, der søger ro."
+            text:"Udvikling af <strong>brandidentitet</strong> og <strong>visuelt univers</strong> for kaffebrand i det københavnske byliv – med <strong>neutral, earthy æstetik</strong> og et <strong>roligt, inspirerende brandrum</strong> for hverdag og studieliv."
           }
         ]);
       }
@@ -161,27 +161,27 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             html:`<img class="popup-media active" src="img/fika-web.webp">`,
             title:"Fika Roasters Website",
-            text:"<strong>Fiktiv case:</strong> Videreudvikling af Fika Roasters i form af webdesign baseret på tidligere udviklet brandidentitet. Designet tager udgangspunkt i eksisterende farver og stil med fokus på moderne, rolig æstetik og intuitiv navigation."
+            text:"Udvikling af <strong>webdesign</strong> for Fika Roasters baseret på eksisterende <strong>brandidentitet</strong>. Fokus på <strong>rolig visuel æstetik</strong>, genkendelige brandfarver og <strong>intuitiv navigation</strong>."
           },
           {
             html:`<img class="popup-media" src="img/port-site.webp">`,
             title:"Tidligere Portfolio",
-            text:"<strong>Eksamensprojekt (1. semester):</strong> Portfolio-website med fokus på layout, typografisk hierarki og projektpræsentation. Alle illustrationer (MacBook, dockpanel m.m.) er tegnet i Adobe Illustrator. <br><br><a href='https://clinquant-duckanoo-808aff.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
+            text:"Portfolio‑website udviklet med fokus på <strong>layout</strong>, <strong>typografisk hierarki</strong> og tydelig <strong>projektpræsentation</strong>. Illustrationer og interface‑elementer er designet i <strong>Adobe Illustrator</strong>. <br><br><a href='https://clinquant-duckanoo-808aff.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
           },
           {
             html:`<img class="popup-media" src="img/interactive-web.webp">`,
             title:"Interaktivt SVG-kort",
-            text:"<strong>Case:</strong> Interaktivt kort udviklet i SVG med fokus på struktur, attributter og brugerinteraktion. Kortet er designet i Illustrator og gjort dynamisk med JavaScript. <br><br><a href='https://interactive-svg.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
+            text:"Udvikling af <strong>interaktivt SVG‑kort</strong> med fokus på <strong>brugerinteraktion</strong>, struktur og dynamiske elementer. Designet i <strong>Illustrator</strong> og gjort interaktivt med <strong>JavaScript</strong>. <br><br><a href='https://interactive-svg.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
           },
           {
             html:`<img class="popup-media" src="img/visit.webp">`,
             title:"Assistens-app",
-            text:"<strong>Case:</strong> Website udviklet som præsentations- og informationsplatform for en kulturel Assistens-app. <br><br><a href='https://kafton-assistens.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
+            text:"<strong>Informations- og præsentationsplatform</strong> for en kulturel app med <strong>klar informationsstruktur</strong> og <strong>brugervenlig</strong> navigation.<br><br><a href='https://kafton-assistens.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
           },
           {
             html:`<img class="popup-media" src="img/ocd-web.webp">`,
             title:"OCD Website",
-            text:"<strong>Case – delopgave (1. semester):</strong> Website udviklet med formål at formidle OCD i øjenhøjde. Fokus på tydelig struktur, overskuelig informationsopbygning og et roligt visuelt udtryk, der understøtter emnets følsomme karakter."
+            text:"Website udviklet til <strong>formidling af OCD</strong> med fokus på <strong>overskuelig struktur</strong>, tydelig information og et <strong>roligt visuelt udtryk</strong> til et følsomt emne."
           }
         ]);
       }
@@ -214,22 +214,22 @@ document.addEventListener("DOMContentLoaded", () => {
           {
             html:`<img class="popup-media" src="img/meta-some.webp">`,
             title:"Meta-annoncer",
-            text:"<strong>Færdighed:</strong> Jeg har grundlæggende forståelse for udarbejdelse af betalte kampagner på Facebook og Instagram – herunder opsætning af målgrupper, enkel opdeling og segmentering samt basal annonceadministration. Jeg har desuden kendskab til, hvordan man tilpasser budskaber til forskellige målgrupper og følger med i kampagners performance."
+            text:"Opsætning af <strong>Meta‑annoncer</strong> på Facebook og Instagram med fokus på <strong>målgrupper</strong>, <strong>segmentering</strong> og løbende <strong>performance‑analyse</strong> af kampagner."
           },  
           {
             html:`<img class="popup-media" src="img/mucki-some.webp">`,
             title:"Mucki Content",
-            text:"<strong>Case:</strong> Fra tidligere arbejde i feltet, hvor jeg hjalp Mucki Bar med at opbygge deres Instagram-platform. Her ses et udsnit af de opslag, jeg har udviklet med fokus på genkendelighed, farver og et visuelt udtryk, der understøtter brandets identitet og målgruppe."
+            text:"Udvikling af <strong>SoMe‑content</strong> til Mucki Bar med fokus på <strong>visuel genkendelighed</strong>, farver og et <strong>brandudtryk</strong>, der styrker relationen til målgruppen."
           },
           {
             html:`<img class="popup-media" src="img/simgames-some.webp">`,
             title:"Simgames Content",
-            text:"<strong>Eksamenscase:</strong> Strategisk udviklet SoMe-content med fokus på målgruppe, engagement og brandpositionering. Der er særligt arbejdet med fotografier i relationel kontekst for at skabe nærvær, fællesskabsfølelse og en visuel fortælling, der understøtter brandets identitet."
+            text:"Udvikling af <strong>strategisk SoMe‑content</strong> med fokus på <strong>målgruppe</strong>, <strong>engagement</strong> og <strong>brandpositionering</strong>. Fotografier er brugt til at skabe en <strong>visuel fortælling</strong> omkring fællesskab og oplevelse."
           },
           {
             html:`<img class="popup-media active" src="img/fika.some.webp">`,
             title:"Fika Roasters SoMe",
-            text:"<strong>Fiktiv case:</strong> Eksempeludkast af visuelt SoMe-indhold til Fika Roasters med fokus på brandidentitet. Indholdet består af Instagram-grid, kampagneopslag og visuelle promotion-posts, hvor farver, typografi og billedstil er afstemt for at skabe et sammenhængende og genkendeligt univers."
+            text:"Udvikling af <strong>SoMe‑univers</strong> for Fika Roasters med fokus på <strong>brandidentitet</strong>, <strong>Instagram‑grid</strong> og visuelle kampagneopslag, der skaber et <strong>sammenhængende brandudtryk</strong>."
           },
         ]);
       }
