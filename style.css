@@ -850,7 +850,8 @@ h1,h2,h3,.name {
     .intro-text {
       max-width: 400px;
       font-size: 15.7px;
-      padding: 0;
+      margin: 16px;
+      margin-bottom: 20px;
       text-align: justify;
       text-align-last: center;
     }
