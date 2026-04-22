@@ -524,6 +524,7 @@ h1,h2,h3,.name {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  margin-bottom: 24px;
 }
 
 .popup-tags span {

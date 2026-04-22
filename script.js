@@ -260,11 +260,10 @@ document.addEventListener("DOMContentLoaded", () => {
               <div>
                 <h2 class="popup-main-title">Webudvikling</h2>
                 <p class="popup-intro">
-                  Jeg udvikler moderne, brugervenlige og konverteringsoptimerede websites og webshops med fokus på funktionalitet, design og performance.
+                Udvikling af websites og webshops med fokus på performance, struktur og brugeroplevelse. Arbejder med alt fra opsætning i WordPress og WooCommerce til frontend-udvikling, optimering og vedligeholdelse af eksisterende løsninger.
                 </p>
               </div>
             </div>
-      
             <div class="popup-grid">
       
               <div class="popup-col">
@@ -342,13 +341,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="project-content">
                   <h3>Foreningen Svalerne</h3>
                   <span class="project-type">Woocommerce website</span>
-                  <p>Ny webshop designet og udviklet i WordPress med WooCommerce.</p>
+                  <p>Redesignet webshop udviklet i WordPress med WooCommerce.</p>
                   <div class="project-tags">
                     <span>WordPress</span>
                     <span>WooCommerce</span>
-                    <span>Design</span>
+                    <span>UX/UI redesign</span>
                   </div>
-                  <a href="#" class="project-link">Se projekt →</a>
                 </div>
               </div>
 
@@ -359,13 +357,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="project-content">
                   <h3>Fika Roasters</h3>
                   <span class="project-type">WordPress website</span>
-                  <p>Website lavet i WordPress med fokus på branding og brugeroplevelse.</p>
+                  <p>Website med fokus på et tydeligt koncept omkring kaffe og kage, hvor struktur og design understøtter brandets univers.</p>
                   <div class="project-tags">
                     <span>WordPress</span>
                     <span>Design</span>
                     <span>UX/UI</span>
                   </div>
-                  <a href="#" class="project-link">Se projekt →</a>
                 </div>
               </div>
 
@@ -376,13 +373,12 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="project-content">
                   <h3>Simgames</h3>
                   <span class="project-type">Astro website</span>
-                  <p>Interaktiv website bygget med Astro og moderne frontend.</p>
+                  <p>Website bygget som et tydeligt spilunivers med minigolf i fokus, udviklet i Astro med integration af backend via Supabase API’er.</p>
                   <div class="project-tags">
                     <span>Astro</span>
-                    <span>Tailwind CSS</span>
-                    <span>JavaScript</span>
+                    <span>Supabase</span>
+                    <span>API integration</span>
                   </div>
-                  <a href="#" class="project-link">Se projekt →</a>
                 </div>
               </div>
 
