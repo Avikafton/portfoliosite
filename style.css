@@ -707,10 +707,14 @@ h1,h2,h3,.name {
 
 .ui-principles {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 36px;
+  grid-template-columns: 1fr 1fr; /* mindre squeeze */
+  gap: 28px;
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.ui-principles div {
+  max-width: 260px;
 }
 
 .ui-principles div p {

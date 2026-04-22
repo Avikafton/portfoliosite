@@ -135,82 +135,106 @@ document.addEventListener("DOMContentLoaded", () => {
                   <li>Usability tests & datadrevet optimering</li>
                 </ul>
 
-                <h4>VÆRKTØJER</h4>
+                <h4>
+                  <img src="img/leverance.png" class="section-icon"> VÆRKTØJER
+                </h4>
 
                 <div class="popup-tags">
                   <span>Figma</span>
-                  <span>Adobe XD</span>
+                  <span>FigJam</span>
                   <span>Photoshop</span>
                   <span>Illustrator</span>
-                  <span>Notion</span>
-                  <span>Maze</span>
+                  <span>Google Lighthouse</span>
                 </div>
               </div>
 
               <div class="popup-col">
-                <h4><img src="img/leverance.png" class="section-icon"> PROJEKT EKSEMPLER</h4>
+                <h4 style="color:#e78caf;">
+                  DESIGNPRINCIPPER
+                </h4>
 
-                <div class="project-grid">
-
-                  <div class="project-card">
-                    <img src="img/news-app.webp">
-                    <p><strong>Nyhedsapp</strong><br>Mobil UI/UX design</p>
+                <div class="ui-principles">
+                  <div>
+                    <strong>Brugerfokus</strong>
+                    <p>Tydelig struktur og nem navigation for hurtigt overblik.</p>
                   </div>
-
-                  <div class="project-card">
-                    <img src="img/studyplanner.webp">
-                    <p><strong>Studyplanner</strong><br>App design & struktur</p>
+                  <div>
+                    <strong>Enkelt & intuitivt</strong>
+                    <p>Rent layout og klart hierarki, der er let at scanne.</p>
                   </div>
-
-                  <div class="project-card">
-                    <img src="img/foodhub.webp">
-                    <p><strong>FoodHub</strong><br>Web app & UX flows</p>
+                  <div>
+                    <strong>Iterativ proces</strong>
+                    <p>Løbende test og justering for bedre flow og UX.</p>
                   </div>
-
                 </div>
+
+                <h4 style="color:#e78caf; margin-top:20px;">FARVER</h4>
+
+                <div class="ui-colors" style="margin-top:10px;">
+                  <span style="background:#e78caf"></span>
+                  <span style="background:#f8e4ea"></span>
+                  <span style="background:#111"></span>
+                  <span style="background:#666"></span>
+                  <span style="background:#f7f7f7"></span>
+                </div>
+
+                <h4 style="color:#e78caf; margin-top:20px;">TYPOGRAFI</h4>
+                <p><strong>Poppins</strong> – overskrift, brødtekst og accent</p>
               </div>
 
             </div>
 
-            <div class="popup-ui-extra">
+           
+            <div class="project-grid web-projects-box">
 
-              <div class="ui-row">
-                <h4 style="color:#e78caf;">DESIGNPRINCIPPER</h4>
-                <div class="ui-principles">
-                  <div>
-                    <strong>Brugerfokus</strong>
-                    <p>Design med udgangspunkt i brugerens behov.</p>
-                  </div>
-                  <div>
-                    <strong>Enkelt & intuitivt</strong>
-                    <p>Rent layout med tydelig struktur.</p>
-                  </div>
-                  <div>
-                    <strong>Iterativ proces</strong>
-                    <p>Test, feedback og løbende forbedringer.</p>
+              <h4 style="color:#e78caf; margin-bottom:10px;">PROJEKTEKSEMPLER</h4>
+
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="img/news-app.webp">
+                </div>
+                <div class="project-content">
+                  <h3>Nyhedsapp</h3>
+                  <span class="project-type">Mobil UI/UX design</span>
+                  <p>Design af nyhedsapp med fokus på struktur, læsbarhed og brugerflow.</p>
+                  <div class="project-tags">
+                    <span>UI Design</span>
+                    <span>UX</span>
+                    <span>Prototype</span>
                   </div>
                 </div>
               </div>
 
-              <div class="ui-row">
-                <h4 style="color:#e78caf; margin:0;">FARVER</h4>
-
-                <div style="display:block;">
-
-                  <div class="ui-colors" style="margin-top:10px;">
-                    <span style="background:#e78caf"></span>
-                    <span style="background:#f8e4ea"></span>
-                    <span style="background:#111"></span>
-                    <span style="background:#666"></span>
-                    <span style="background:#f7f7f7"></span>
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="img/studyplanner.webp">
+                </div>
+                <div class="project-content">
+                  <h3>Studyplanner</h3>
+                  <span class="project-type">App design & struktur</span>
+                  <p>Planlægningsapp med fokus på overblik, struktur og brugervenlig navigation.</p>
+                  <div class="project-tags">
+                    <span>UX</span>
+                    <span>Flow</span>
+                    <span>Wireframes</span>
                   </div>
-
                 </div>
               </div>
 
-              <div class="ui-row">
-                <h4 style="color:#e78caf;">TYPOGRAFI</h4>
-                <p><strong>Poppins</strong> – overskrift, brødtekst og accent</p>
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="img/foodhub.webp">
+                </div>
+                <div class="project-content">
+                  <h3>FoodHub</h3>
+                  <span class="project-type">Web app & UX flows</span>
+                  <p>Webapp med fokus på brugerflows, informationsarkitektur og interaktion.</p>
+                  <div class="project-tags">
+                    <span>UX</span>
+                    <span>IA</span>
+                    <span>Brugercentreret</span>
+                  </div>
+                </div>
               </div>
 
             </div>
@@ -424,8 +448,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <div>
                 <h2 class="popup-main-title">Sociale Medier</h2>
                 <p class="popup-intro">
-                  Jeg hjælper virksomheder med at skabe synlighed, engagere deres målgruppe
-                  og opbygge stærke fællesskaber gennem kreativt indhold og strategisk planlægning.
+                Arbejder med sociale medier med fokus på synlighed, målretning og performance. Erfaring med opsætning og optimering af Meta-annoncer, udvikling af content samt analyse af kampagner for at skabe målbare resultater.
                 </p>
               </div>
             </div>
@@ -435,47 +458,93 @@ document.addEventListener("DOMContentLoaded", () => {
               <div class="popup-col">
                 <h4><img src="img/kompetencer.png" class="section-icon"> DET JEG TILBYDER</h4>
 
-                <ul class="checklist">
-                  <li>Indholdsplanlægning</li>
-                  <li>Opsætning og optimering af profiler</li>
-                  <li>SoMe-content (billeder, grafik, reels)</li>
-                  <li>Community management</li>
-                  <li>Analyse og rapportering</li>
+             <ul class="checklist">
+                  <li>Opsætning og håndtering af Meta-annoncer</li>
+                  <li>Målretning og segmentering af målgrupper</li>
+                  <li>Optimering af kampagner og performance</li>
+                  <li>Udarbejdelse af annonceindhold</li>
+                  <li>Analyse, tracking og rapportering</li>
                 </ul>
+              </div>
 
-                <h4>VÆRKTØJER</h4>
+              <div class="popup-col">
+                <h4><img src="img/leverance.png" class="section-icon"> VÆRKTØJER</h4>
 
                 <div class="popup-tags">
                   <span>Meta Business Suite</span>
                   <span>Canva</span>
-                  <span>CapCut</span>
-                  <span>Later</span>
-                  <span>Google Analytics</span>
-                  <span>Metricool</span>
+                  <span>CapCut</span> 
                   <span>ChatGPT</span>
+                  <span>Adobe After Effects</span>
+                  <span>Adobe Firefly</span>
+                  <span>Adobe Photoshop</span>
+                 
+                </div>
+
+                <h4 style="margin-top:20px;">
+                  <img src="img/medier.png" class="section-icon"> MEDIER
+                </h4>
+
+                <div class="popup-tags">
+                  <span>Instagram</span>
+                  <span>Facebook</span>
+                  <span>YouTube</span>
+                  <span>TikTok</span>
                 </div>
               </div>
 
-              <div class="popup-col">
-                <h4><img src="img/leverance.png" class="section-icon"> PROJEKT EKSEMPLER</h4>
+            </div>
 
-                <div class="project-grid">
+       
+            <div class="project-grid web-projects-box">
 
-                  <div class="project-card">
-                    <img src="img/meta-some.webp">
-                    <p><strong>Meta-annoncer</strong><br>Facebook & Instagram ads</p>
+              <h4 style="color:#e78caf; margin-bottom:10px;">PROJEKTEKSEMPLER</h4>
+
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="img/meta-some.webp">
+                </div>
+                <div class="project-content">
+                  <h3>Meta-annoncer</h3>
+                  <span class="project-type">Facebook & Instagram ads</span>
+                  <p>Udvikling og opsætning af målrettede annoncer med fokus på synlighed og konvertering.</p>
+                  <div class="project-tags">
+                    <span>Meta Ads</span>
+                    <span>Strategi</span>
+                    <span>Performance</span>
                   </div>
+                </div>
+              </div>
 
-                  <div class="project-card">
-                    <img src="img/mucki-some.webp">
-                    <p><strong>Mucki Content</strong><br>SoMe content & branding</p>
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="img/mucki-some.webp">
+                </div>
+                <div class="project-content">
+                  <h3>Mucki Content</h3>
+                  <span class="project-type">SoMe content & branding</span>
+                  <p>Udvikling af visuelt content og branding med fokus på genkendelighed og engagement.</p>
+                  <div class="project-tags">
+                    <span>Content</span>
+                    <span>Branding</span>
+                    <span>Visuals</span>
                   </div>
+                </div>
+              </div>
 
-                  <div class="project-card">
-                    <img src="img/simgames-some.webp">
-                    <p><strong>Simgames</strong><br>Strategisk content</p>
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="img/simgames-some.webp">
+                </div>
+                <div class="project-content">
+                  <h3>Simgames</h3>
+                  <span class="project-type">Strategisk content</span>
+                  <p>Strategisk planlægning og content med fokus på målgruppe og engagement.</p>
+                  <div class="project-tags">
+                    <span>Strategy</span>
+                    <span>Content</span>
+                    <span>Engagement</span>
                   </div>
-
                 </div>
               </div>
 
