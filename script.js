@@ -107,23 +107,116 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       else if(type === "ui"){
-        createSlider([
-          {
-            html:`<img class="popup-media active" src="img/news-app.webp">`,
-            title:"Nyheds-app",
-            text:"Udvikling af <strong>UI/UX‑design</strong> til nyhedsapp med fokus på <strong>intuitiv navigation</strong>, tydeligt <strong>typografisk hierarki</strong> og en <strong>rolig læseoplevelse</strong>."
-          },
-          {
-            html:`<img class="popup-media" src="img/studyplanner.webp">`,
-            title:"Studyplanner",
-            text:"Design af <strong>studieplanlægningsapp</strong> med fokus på <strong>struktur</strong>, <strong>overblik</strong> og en <strong>motiverende brugeroplevelse</strong> for studerende."
-          },
-          {
-            html:`<img class="popup-media" src="img/foodhub.webp">`,
-            title:"FoodHub",
-            text:"Udvikling af <strong>API‑baseret madplatform</strong> med fokus på <strong>klar informationsstruktur</strong>, <strong>intuitiv navigation</strong> samt <strong>filtrering og sortering</strong> efter tid, sværhedsgrad og cuisine."
-          }
-        ]);
+        popupContent.innerHTML = `
+          <div class="popup-static">
+
+            <div class="popup-header">
+              <div class="popup-icon">
+                <img src="img/pintool.svg" style="width:32px;height:32px;">
+              </div>
+              <div>
+                <h2 class="popup-main-title">UI/UX</h2>
+                <p class="popup-intro">
+                 Jeg designer intuitive og æstetiske digitale løsninger med fokus på brugervenlighed, struktur og visuel kvalitet. Jeg søger praktik, hvor jeg kan udvikle mine kompetencer inden for UI/UX og bidrage med kreative løsninger til digitale produkter.
+                </p>
+              </div>
+            </div>
+
+            <div class="popup-grid">
+
+              <div class="popup-col">
+                <h4><img src="img/kompetencer.png" class="section-icon"> DET JEG TILBYDER</h4>
+
+                <ul class="checklist">
+                  <li>Brugerresearch & analyse</li>
+                  <li>Wireframes & prototyper</li>
+                  <li>UI design (web & mobil)</li>
+                  <li>Brugerflows & informationsarkitektur</li>
+                  <li>Usability tests & optimering</li>
+                </ul>
+
+                <h4>VÆRKTØJER</h4>
+
+                <div class="popup-tags">
+                  <span>Figma</span>
+                  <span>Adobe XD</span>
+                  <span>Photoshop</span>
+                  <span>Illustrator</span>
+                  <span>Notion</span>
+                  <span>Maze</span>
+                </div>
+              </div>
+
+              <div class="popup-col">
+                <h4><img src="img/leverance.png" class="section-icon"> PROJEKT EKSEMPLER</h4>
+
+                <div class="project-grid">
+
+                  <div class="project-card">
+                    <img src="img/news-app.webp">
+                    <p><strong>Nyhedsapp</strong><br>Mobil UI/UX design</p>
+                  </div>
+
+                  <div class="project-card">
+                    <img src="img/studyplanner.webp">
+                    <p><strong>Studyplanner</strong><br>App design & struktur</p>
+                  </div>
+
+                  <div class="project-card">
+                    <img src="img/foodhub.webp">
+                    <p><strong>FoodHub</strong><br>Web app & UX flows</p>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="popup-ui-extra">
+
+              <div class="ui-row">
+                <h4 style="color:#e78caf;">DESIGNPRINCIPPER</h4>
+                <div class="ui-principles">
+                  <div>
+                    <strong>Brugerfokus</strong>
+                    <p>Design med udgangspunkt i brugerens behov.</p>
+                  </div>
+                  <div>
+                    <strong>Enkelt & intuitivt</strong>
+                    <p>Rent layout med tydelig struktur.</p>
+                  </div>
+                  <div>
+                    <strong>Iterativ proces</strong>
+                    <p>Test, feedback og løbende forbedringer.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ui-row">
+                <h4 style="color:#e78caf; margin:0;">FARVER</h4>
+
+                <div style="display:block;">
+
+                  <div class="ui-colors" style="margin-top:10px;">
+                    <span style="background:#e78caf"></span>
+                    <span style="background:#f8e4ea"></span>
+                    <span style="background:#111"></span>
+                    <span style="background:#666"></span>
+                    <span style="background:#f7f7f7"></span>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="ui-row">
+                <h4 style="color:#e78caf;">TYPOGRAFI</h4>
+                <p><strong>Poppins</strong> – overskrift, brødtekst og accent</p>
+              </div>
+
+            </div>
+
+          </div>
+        `;
       }
 
       else if(type === "branding"){
@@ -290,28 +383,75 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       else if(type === "some"){
-        createSlider([     
-          {
-            html:`<img class="popup-media" src="img/meta-some.webp">`,
-            title:"Meta-annoncer",
-            text:"Opsætning af <strong>Meta‑annoncer</strong> på Facebook og Instagram med fokus på <strong>målgrupper</strong>, <strong>segmentering</strong> og løbende <strong>performance‑analyse</strong> af kampagner."
-          },  
-          {
-            html:`<img class="popup-media" src="img/mucki-some.webp">`,
-            title:"Mucki Content",
-            text:"Udvikling af <strong>SoMe‑content</strong> til Mucki Bar med fokus på <strong>visuel genkendelighed</strong>, farver og et <strong>brandudtryk</strong>, der styrker relationen til målgruppen."
-          },
-          {
-            html:`<img class="popup-media" src="img/simgames-some.webp">`,
-            title:"Simgames Content",
-            text:"Udvikling af <strong>strategisk SoMe‑content</strong> med fokus på <strong>målgruppe</strong>, <strong>engagement</strong> og <strong>brandpositionering</strong>. Fotografier er brugt til at skabe en <strong>visuel fortælling</strong> omkring fællesskab og oplevelse."
-          },
-          {
-            html:`<img class="popup-media active" src="img/fika.some.webp">`,
-            title:"Fika Roasters SoMe",
-            text:"Udvikling af <strong>SoMe‑univers</strong> for Fika Roasters med fokus på <strong>brandidentitet</strong>, <strong>Instagram‑grid</strong> og visuelle kampagneopslag, der skaber et <strong>sammenhængende brandudtryk</strong>."
-          },
-        ]);
+        popupContent.innerHTML = `
+          <div class="popup-static">
+
+            <div class="popup-header">
+              <div class="popup-icon">
+                <img src="img/heart.svg" style="width:35px;height:35px;">
+              </div>
+              <div>
+                <h2 class="popup-main-title">Sociale Medier</h2>
+                <p class="popup-intro">
+                  Jeg hjælper virksomheder med at skabe synlighed, engagere deres målgruppe
+                  og opbygge stærke fællesskaber gennem kreativt indhold og strategisk planlægning.
+                </p>
+              </div>
+            </div>
+
+            <div class="popup-grid">
+
+              <div class="popup-col">
+                <h4><img src="img/kompetencer.png" class="section-icon"> DET JEG TILBYDER</h4>
+
+                <ul class="checklist">
+                  <li>Indholdsplanlægning</li>
+                  <li>Opsætning og optimering af profiler</li>
+                  <li>SoMe-content (billeder, grafik, reels)</li>
+                  <li>Community management</li>
+                  <li>Analyse og rapportering</li>
+                </ul>
+
+                <h4>VÆRKTØJER</h4>
+
+                <div class="popup-tags">
+                  <span>Meta Business Suite</span>
+                  <span>Canva</span>
+                  <span>CapCut</span>
+                  <span>Later</span>
+                  <span>Google Analytics</span>
+                  <span>Metricool</span>
+                  <span>ChatGPT</span>
+                </div>
+              </div>
+
+              <div class="popup-col">
+                <h4><img src="img/leverance.png" class="section-icon"> PROJEKT EKSEMPLER</h4>
+
+                <div class="project-grid">
+
+                  <div class="project-card">
+                    <img src="img/meta-some.webp">
+                    <p><strong>Meta-annoncer</strong><br>Facebook & Instagram ads</p>
+                  </div>
+
+                  <div class="project-card">
+                    <img src="img/mucki-some.webp">
+                    <p><strong>Mucki Content</strong><br>SoMe content & branding</p>
+                  </div>
+
+                  <div class="project-card">
+                    <img src="img/simgames-some.webp">
+                    <p><strong>Simgames</strong><br>Strategisk content</p>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        `;
       }
 
       popup.classList.add("active");

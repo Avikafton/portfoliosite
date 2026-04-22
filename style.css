@@ -698,6 +698,51 @@ h1,h2,h3,.name {
   display:block;
 }
 
+/* DETTE ER TIL UI/UX POPUPPEN */
+.popup-ui-extra {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  line-height: 1.6;
+}
+
+.ui-row-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.ui-principles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
+
+.ui-principles div p {
+  opacity: 0.7;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.ui-colors {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  margin-bottom: 20px;
+  align-items: center;
+  min-width: 260px;
+}
+
+.ui-colors span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* DET OVENSTÅENDE ER TIL UI/UX */
+
 
 
 /* ======================================================
