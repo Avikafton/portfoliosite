@@ -444,18 +444,19 @@ h1,h2,h3,.name {
   background: rgba(0,0,0,0.08);
 }
 
-/* TYPOGRAFI */
 .popup-main-title {
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: 600;
   margin: 0;
+  letter-spacing: 0.5px;
 }
 
 .popup-intro {
-  margin-top: 6px;
-  font-size: 14px;
-  color: #555;
+  margin-top: 8px;
+  font-size: 15px;
+  color: #444;
   max-width: 600px;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .popup-intro::after {
@@ -725,6 +726,13 @@ h1,h2,h3,.name {
   line-height: 1.5;
 }
 
+.ui-typography-text {
+  opacity: 0.7;
+  font-size: 14px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
 .ui-colors {
   display: flex;
   gap: 12px;
@@ -1292,6 +1300,11 @@ h1,h2,h3,.name {
   padding: 16px;
   border-radius: 16px;
   align-items: center;
+  transition: all 0.25s ease;
+}
+
+.web-projects-box .project-card:hover {
+  transform: translateY(-4px);
 }
 
 .web-projects-box .project-image img {
@@ -1310,19 +1323,22 @@ h1,h2,h3,.name {
 
 .web-projects-box .project-content h3 {
   margin: 0;
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .web-projects-box .project-type {
   color: #e78caf;
-  font-size: 14px;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .web-projects-box .project-content p {
   margin: 0;
   font-size: 14px;
-  opacity: 0.7;
-  line-height: 1.5;
+  opacity: 0.75;
+  line-height: 1.6;
 }
 
 .web-projects-box .project-tags {

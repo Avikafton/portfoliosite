@@ -179,7 +179,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
 
                 <h4 style="color:#e78caf; margin-top:20px;">TYPOGRAFI</h4>
-                <p><strong>Poppins</strong> – overskrift, brødtekst og accent</p>
+                <p><strong>Poppins</strong></p>
+                                <p class="ui-typography-text"> overskrift, brødtekst og accent</p>
               </div>
 
             </div>
@@ -254,7 +255,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <div>
           <h2 class="popup-main-title">Branding</h2>
           <p class="popup-intro">
-          Udvikling af visuelle identiteter med fokus på koncept, målgruppe og sammenhængende design. Arbejder med alt fra idé og strategi til færdigt visuelt udtryk.
+         Udvikling af visuelle identiteter med fokus på koncept, målgruppe og et sammenhængende brandunivers.
           </p>
         </div>
       </div>
