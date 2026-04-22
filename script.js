@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="popup-static">
       
             <div class="popup-header">
-           <div class="popup-icon">
+              <div class="popup-icon">
                 <img src="img/code.svg" style="width:32px;height:32px;">
               </div>
               <div>
@@ -175,51 +175,51 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="popup-grid">
       
               <div class="popup-col">
-                <h4>KOMPETENCER</h4>
+                <h4><img src="img/kompetencer.png" class="section-icon"> KOMPETENCER</h4>
       
                 <div class="skill-row">
-                  <img src="img/wp.svg">
+                  <img src="img/wp.svg" class="skill-icon">
                   <div>
                     <strong>WordPress</strong>
-                    <p>Opsætning, tilpasning og udvikling af professionelle websites.</p>
+                    <p>WordPress-løsninger med fokus på brugervenlighed og struktur.</p>
                   </div>
                 </div>
       
                 <div class="skill-row">
-                  <img src="img/woo.svg">
+                  <img src="img/woo.svg" class="skill-icon">
                   <div>
                     <strong>WooCommerce</strong>
-                    <p>Udvikling af webshops med produkter, betaling og struktur.</p>
+                    <p>Webshops med produkter, betaling og simpelt købsflow.</p>
                   </div>
                 </div>
       
                 <div class="skill-row">
-                  <img src="img/frontend.svg">
+                  <img src="img/frontend.svg" class="skill-icon">
                   <div>
                     <strong>Frontend</strong>
-                    <p>HTML, CSS og JavaScript til responsivt og brugervenligt design.</p>
+                    <p>Responsive interfaces med HTML, CSS, JavaScript, Astro og Supabase.</p>
                   </div>
                 </div>
       
                 <div class="skill-row">
-                  <img src="img/speed.svg">
+                  <img src="img/speed.svg" class="skill-icon">
                   <div>
                     <strong>Performance & SEO</strong>
-                    <p>Optimering af hastighed, struktur og synlighed.</p>
+                    <p>Performance og SEO-optimering for bedre hastighed og synlighed.</p>
                   </div>
                 </div>
       
               </div>
       
               <div class="popup-col">
-                <h4>HVAD JEG LEVERER</h4>
+                <h4><img src="img/leverance.png" class="section-icon"> HVAD JEG LEVERER</h4>
       
                 <ul class="checklist">
-                  <li>Skræddersyede løsninger</li>
-                  <li>Brugervenligt design med fokus på konvertering</li>
-                  <li>Webshops med nem administration</li>
-                  <li>Mobilvenlige og hurtige websites</li>
-                  <li>Løbende support og vedligeholdelse</li>
+                  <li>Skræddersyede web- og shopløsninger</li>
+                  <li>Brugervenligt og responsivt design</li>
+                  <li>Fokus på performance og konvertering</li>
+                  <li>Moderne teknologier og integrationer</li>
+                  <li>Vedligeholdelse og løbende optimering</li>
                 </ul>
       
                 <h4>TEKNOLOGIER</h4>
@@ -228,33 +228,35 @@ document.addEventListener("DOMContentLoaded", () => {
                   <span>WordPress</span>
                   <span>WooCommerce</span>
                   <span>Elementor</span>
-                  <span>HTML5</span>
-                  <span>CSS3</span>
+                  <span>HTML</span>
+                  <span>CSS</span>
                   <span>JavaScript</span>
                   <span>PHP</span>
+                  <span>Astro</span>
+                  <span>Supabase</span>
                 </div>
       
               </div>
       
             </div>
       
-            <div class="popup-projects">
-              <h4>PROJEKT EKSEMPLER</h4>
+            <div class="popup-projects-box">
+            <h4 style="color:#e78caf;">PROJEKT EKSEMPLER</h4>
       
               <div class="project-grid">
                 <div class="project-card">
                   <img src="img/svalerne.webp">
-                  <p><strong>Foreningen Svalerne</strong><br>WordPress website</p>
+                  <p><strong>Foreningen Svalerne</strong><br>Woocommerce website</p>
                 </div>
       
                 <div class="project-card">
-                  <img src="img/fair-square.webp">
-                  <p><strong>Fair & Square</strong><br>WooCommerce webshop</p>
+                  <img src="img/fikaroasters.webp">
+                  <p><strong>Fika Roasters</strong><br>Wordpress website</p>
                 </div>
       
                 <div class="project-card">
-                  <img src="img/nordiskbyg.webp">
-                  <p><strong>Nordisk Byg</strong><br>WordPress website</p>
+                  <img src="img/simgamesweb.webp">
+                  <p><strong>Simgames</strong><br>Astro website</p>
                 </div>
               </div>
             </div>
