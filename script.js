@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <div>
                 <h2 class="popup-main-title">UI/UX</h2>
                 <p class="popup-intro">
-                 Jeg designer intuitive og æstetiske digitale løsninger med fokus på brugervenlighed, struktur og visuel kvalitet. Jeg søger praktik, hvor jeg kan udvikle mine kompetencer inden for UI/UX og bidrage med kreative løsninger til digitale produkter.
+                 Jeg arbejder med UI/UX design med fokus på brugervenlighed, struktur og visuel kvalitet. Jeg har erfaring med at udvikle wireframes, prototyper og færdige interfaces i værktøjer som Figma, og jeg har arbejdet med brugerflows, informationsarkitektur og usability tests for at skabe bedre digitale oplevelser.
                 </p>
               </div>
             </div>
@@ -125,14 +125,14 @@ document.addEventListener("DOMContentLoaded", () => {
             <div class="popup-grid">
 
               <div class="popup-col">
-                <h4><img src="img/kompetencer.png" class="section-icon"> DET JEG TILBYDER</h4>
+                <h4><img src="img/kompetencer.png" class="section-icon">MINE KOMPETENCER</h4>
 
                 <ul class="checklist">
-                  <li>Brugerresearch & analyse</li>
-                  <li>Wireframes & prototyper</li>
-                  <li>UI design (web & mobil)</li>
+                  <li>Brugerindsigt & adfærdsanalyse</li>
+                  <li>Persuasive designoptimering</li>
+                  <li>Wireframes, prototyper & interaktionsdesign</li>
                   <li>Brugerflows & informationsarkitektur</li>
-                  <li>Usability tests & optimering</li>
+                  <li>Usability tests & datadrevet optimering</li>
                 </ul>
 
                 <h4>VÆRKTØJER</h4>
@@ -333,25 +333,59 @@ document.addEventListener("DOMContentLoaded", () => {
       
             </div>
       
-            <div class="popup-projects-box">
-            <h4 style="color:#e78caf;">PROJEKT EKSEMPLER</h4>
-      
-              <div class="project-grid">
-                <div class="project-card">
+            <div class="project-grid web-projects-box">
+
+              <div class="project-card">
+                <div class="project-image">
                   <img src="img/svalerne.webp">
-                  <p><strong>Foreningen Svalerne</strong><br>Woocommerce website</p>
                 </div>
-      
-                <div class="project-card">
-                  <img src="img/fikaroasters.webp">
-                  <p><strong>Fika Roasters</strong><br>Wordpress website</p>
-                </div>
-      
-                <div class="project-card">
-                  <img src="img/simgamesweb.webp">
-                  <p><strong>Simgames</strong><br>Astro website</p>
+                <div class="project-content">
+                  <h3>Foreningen Svalerne</h3>
+                  <span class="project-type">Woocommerce website</span>
+                  <p>Ny webshop designet og udviklet i WordPress med WooCommerce.</p>
+                  <div class="project-tags">
+                    <span>WordPress</span>
+                    <span>WooCommerce</span>
+                    <span>Design</span>
+                  </div>
+                  <a href="#" class="project-link">Se projekt →</a>
                 </div>
               </div>
+
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="img/fikaroasters.webp">
+                </div>
+                <div class="project-content">
+                  <h3>Fika Roasters</h3>
+                  <span class="project-type">WordPress website</span>
+                  <p>Website lavet i WordPress med fokus på branding og brugeroplevelse.</p>
+                  <div class="project-tags">
+                    <span>WordPress</span>
+                    <span>Design</span>
+                    <span>UX/UI</span>
+                  </div>
+                  <a href="#" class="project-link">Se projekt →</a>
+                </div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-image">
+                  <img src="img/simgamesweb.webp">
+                </div>
+                <div class="project-content">
+                  <h3>Simgames</h3>
+                  <span class="project-type">Astro website</span>
+                  <p>Interaktiv website bygget med Astro og moderne frontend.</p>
+                  <div class="project-tags">
+                    <span>Astro</span>
+                    <span>Tailwind CSS</span>
+                    <span>JavaScript</span>
+                  </div>
+                  <a href="#" class="project-link">Se projekt →</a>
+                </div>
+              </div>
+
             </div>
       
           </div>
