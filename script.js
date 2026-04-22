@@ -243,35 +243,111 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
       }
 
-      else if(type === "branding"){
-        createSlider([
-          {
-            html:`<img class="popup-media active" src="img/toki.webp">`,
-            title:"Toki",
-            text:"Udvikling af <strong>visuel identitet</strong> for virksomhed uden eksisterende designlinje <br> – med fokus på <strong>strategisk positionering</strong> inden for bæredygtig emballage."
-          },
-          {
-            html:`<img class="popup-media" src="img/simgames.webp">`,
-            title:"Simgames – The Clubhouse",
-            text:"<strong>Visuel identitet</strong> og <strong>designkoncept</strong> for Simgames på sociale medier og website i samarbejde med Simgolf - målrettet en yngre, eventorienteret målgruppe med fokus på et <strong>socialt og energisk udtryk</strong>."
-          },
-          {
-            html:`<img class="popup-media" src="img/visit.webp">`,
-            title:"Visit kampagne",
-            text:"<strong>Konceptudvikling</strong> med fokus på <strong>autentiske oplevelser</strong> og <strong>kulturelt engagement</strong> for turister i København – herunder at inspirere besøgende til at opleve <strong>Assistens Kirkegården</strong> og de mange ikoniske navne, der er en del af stedets <strong>kulturarv</strong>."
-          },
-          {
-            html:`<img class="popup-media" src="img/berrichi.webp">`,
-            title:"Berrichi",
-            text:"Udvikling og vedligeholdelse af <strong>SoMe-indhold</strong> samt opdatering af <strong>WordPress-website</strong> for Berrichi Danmark. Fokus på at understøtte <strong>brandets nordiske æstetik</strong> og et <strong>urbant visuelt udtryk</strong> målrettet miljøet i København."
-          },
-          {
-            html:`<img class="popup-media" src="img/coffee.webp">`,
-            title:"Fika Roasters",
-            text:"Udvikling af <strong>brandidentitet</strong> og <strong>visuelt univers</strong> for kaffebrand i det københavnske byliv – med <strong>neutral, earthy æstetik</strong> og et <strong>roligt, inspirerende brandrum</strong> for hverdag og studieliv."
-          }
-        ]);
-      }
+     else if(type === "branding"){
+  popupContent.innerHTML = `
+    <div class="popup-static">
+
+      <div class="popup-header">
+        <div class="popup-icon">
+          <img src="img/pintool.svg" style="width:32px;height:32px;">
+        </div>
+        <div>
+          <h2 class="popup-main-title">Branding</h2>
+          <p class="popup-intro">
+          Udvikling af visuelle identiteter med fokus på koncept, målgruppe og sammenhængende design. Arbejder med alt fra idé og strategi til færdigt visuelt udtryk.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-grid web-projects-box">
+
+        <h4 style="color:#e78caf; margin-bottom:10px;">PROJEKTEKSEMPLER</h4>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/toki.webp">
+          </div>
+          <div class="project-content">
+            <h3>Toki</h3>
+            <span class="project-type">Branding & identitet</span>
+            <p>Visuel identitet med fokus på strategisk positionering inden for bæredygtig emballage.</p>
+            <div class="project-tags">
+              <span>Branding</span>
+              <span>Strategi</span>
+              <span>Identitet</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/simgames.webp">
+          </div>
+          <div class="project-content">
+            <h3>Simgames</h3>
+            <span class="project-type">Branding & SoMe</span>
+            <p>Visuel identitet og designkoncept målrettet en yngre, eventorienteret målgruppe.</p>
+            <div class="project-tags">
+              <span>Branding</span>
+              <span>SoMe</span>
+              <span>Koncept</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/visit.webp">
+          </div>
+          <div class="project-content">
+            <h3>Visit kampagne</h3>
+            <span class="project-type">Koncept & kampagne</span>
+            <p>Konceptudvikling med fokus på autentiske oplevelser og kulturelt engagement.</p>
+            <div class="project-tags">
+              <span>Koncept</span>
+              <span>Kampagne</span>
+              <span>Storytelling</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/berrichi.webp">
+          </div>
+          <div class="project-content">
+            <h3>Berrichi</h3>
+            <span class="project-type">SoMe & branding</span>
+            <p>Udvikling af visuelt content og vedligeholdelse af brandets digitale udtryk.</p>
+            <div class="project-tags">
+              <span>Branding</span>
+              <span>Content</span>
+              <span>WordPress</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/coffee.webp">
+          </div>
+          <div class="project-content">
+            <h3>Fika Roasters</h3>
+            <span class="project-type">Branding & visuel stil</span>
+            <p>Udvikling af roligt og æstetisk brandunivers med fokus på café- og hverdagsliv.</p>
+            <div class="project-tags">
+              <span>Branding</span>
+              <span>Visuel stil</span>
+              <span>Identitet</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  `;
+}
 
       else if(type === "web"){
         popupContent.innerHTML = `
