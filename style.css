@@ -1254,3 +1254,62 @@ h1,h2,h3,.name {
   opacity: 0.6;
   margin-top: 4px;
 }
+
+/* ======================================================
+   WEB POPUP RESPONSIVE (MOBILE)
+====================================================== */
+@media (max-width: 600px) {
+
+  .popup-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .popup-grid::after {
+    display: none; /* remove vertical divider */
+  }
+
+  .popup-col h4 {
+    grid-template-columns: 30px 1fr;
+    gap: 10px;
+  }
+
+  .section-icon {
+    width: 22px;
+    height: 22px;
+  }
+
+  .skill-row {
+    grid-template-columns: 50px 1fr;
+    gap: 12px;
+  }
+
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .popup-projects-box {
+    padding: 20px;
+    border-radius: 22px;
+  }
+
+  .popup-projects-box .project-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .popup-projects-box .project-card img {
+    max-width: 220px;
+    margin: 0 auto;
+  }
+
+  .popup-projects-box .project-label {
+    font-size: 14px;
+  }
+
+  .popup-projects-box .project-sub {
+    font-size: 12px;
+  }
+
+}
