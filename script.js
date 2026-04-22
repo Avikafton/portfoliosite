@@ -157,33 +157,111 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       else if(type === "web"){
-        createSlider([
-          {
-            html:`<img class="popup-media active" src="img/fika-web.webp">`,
-            title:"Fika Roasters Website",
-            text:"Udvikling af <strong>webdesign</strong> for Fika Roasters baseret på eksisterende <strong>brandidentitet</strong>. Fokus på <strong>rolig visuel æstetik</strong>, genkendelige brandfarver og <strong>intuitiv navigation</strong>."
-          },
-          {
-            html:`<img class="popup-media" src="img/port-site.webp">`,
-            title:"Tidligere Portfolio",
-            text:"Portfolio‑website udviklet med fokus på <strong>layout</strong>, <strong>typografisk hierarki</strong> og tydelig <strong>projektpræsentation</strong>. Illustrationer og interface‑elementer er designet i <strong>Adobe Illustrator</strong>. <br><br><a href='https://clinquant-duckanoo-808aff.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
-          },
-          {
-            html:`<img class="popup-media" src="img/interactive-web.webp">`,
-            title:"Interaktivt SVG-kort",
-            text:"Udvikling af <strong>interaktivt SVG‑kort</strong> med fokus på <strong>brugerinteraktion</strong>, struktur og dynamiske elementer. Designet i <strong>Illustrator</strong> og gjort interaktivt med <strong>JavaScript</strong>. <br><br><a href='https://interactive-svg.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
-          },
-          {
-            html:`<img class="popup-media" src="img/visit.webp">`,
-            title:"Assistens-app",
-            text:"<strong>Informations- og præsentationsplatform</strong> for en kulturel app med <strong>klar informationsstruktur</strong> og <strong>brugervenlig</strong> navigation.<br><br><a href='https://kafton-assistens.netlify.app/' target='_blank' class='site-link'>Se sitet her</a>"
-          },
-          {
-            html:`<img class="popup-media" src="img/ocd-web.webp">`,
-            title:"OCD Website",
-            text:"Website udviklet til <strong>formidling af OCD</strong> med fokus på <strong>overskuelig struktur</strong>, tydelig information og et <strong>roligt visuelt udtryk</strong> til et følsomt emne."
-          }
-        ]);
+        popupContent.innerHTML = `
+          <div class="popup-static">
+      
+            <div class="popup-header">
+           <div class="popup-icon">
+                <img src="img/code.svg" style="width:32px;height:32px;">
+              </div>
+              <div>
+                <h2 class="popup-main-title">Webudvikling</h2>
+                <p class="popup-intro">
+                  Jeg udvikler moderne, brugervenlige og konverteringsoptimerede websites og webshops med fokus på funktionalitet, design og performance.
+                </p>
+              </div>
+            </div>
+      
+            <div class="popup-grid">
+      
+              <div class="popup-col">
+                <h4>KOMPETENCER</h4>
+      
+                <div class="skill-row">
+                  <img src="img/wp.svg">
+                  <div>
+                    <strong>WordPress</strong>
+                    <p>Opsætning, tilpasning og udvikling af professionelle websites.</p>
+                  </div>
+                </div>
+      
+                <div class="skill-row">
+                  <img src="img/woo.svg">
+                  <div>
+                    <strong>WooCommerce</strong>
+                    <p>Udvikling af webshops med produkter, betaling og struktur.</p>
+                  </div>
+                </div>
+      
+                <div class="skill-row">
+                  <img src="img/frontend.svg">
+                  <div>
+                    <strong>Frontend</strong>
+                    <p>HTML, CSS og JavaScript til responsivt og brugervenligt design.</p>
+                  </div>
+                </div>
+      
+                <div class="skill-row">
+                  <img src="img/speed.svg">
+                  <div>
+                    <strong>Performance & SEO</strong>
+                    <p>Optimering af hastighed, struktur og synlighed.</p>
+                  </div>
+                </div>
+      
+              </div>
+      
+              <div class="popup-col">
+                <h4>HVAD JEG LEVERER</h4>
+      
+                <ul class="checklist">
+                  <li>Skræddersyede løsninger</li>
+                  <li>Brugervenligt design med fokus på konvertering</li>
+                  <li>Webshops med nem administration</li>
+                  <li>Mobilvenlige og hurtige websites</li>
+                  <li>Løbende support og vedligeholdelse</li>
+                </ul>
+      
+                <h4>TEKNOLOGIER</h4>
+      
+                <div class="popup-tags">
+                  <span>WordPress</span>
+                  <span>WooCommerce</span>
+                  <span>Elementor</span>
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>JavaScript</span>
+                  <span>PHP</span>
+                </div>
+      
+              </div>
+      
+            </div>
+      
+            <div class="popup-projects">
+              <h4>PROJEKT EKSEMPLER</h4>
+      
+              <div class="project-grid">
+                <div class="project-card">
+                  <img src="img/svalerne.webp">
+                  <p><strong>Foreningen Svalerne</strong><br>WordPress website</p>
+                </div>
+      
+                <div class="project-card">
+                  <img src="img/fair-square.webp">
+                  <p><strong>Fair & Square</strong><br>WooCommerce webshop</p>
+                </div>
+      
+                <div class="project-card">
+                  <img src="img/nordiskbyg.webp">
+                  <p><strong>Nordisk Byg</strong><br>WordPress website</p>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        `;
+        popup.classList.add("active");
       }
 
       else if(type === "illustration"){

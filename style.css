@@ -130,6 +130,7 @@ h1,h2,h3,.name {
   0%,100%{
     transform:rotate(22deg) translateY(0px);
   }
+
   50%{
     transform:rotate(22deg) translateY(-14px);
   }
@@ -407,6 +408,130 @@ h1,h2,h3,.name {
 /* ======================================================
    POPUP SYSTEM 
 ====================================================== */
+
+/* Dette er til webudvikling popup */
+.popup-static {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.popup-main-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.popup-intro {
+  max-width: 600px;
+  opacity: 0.7;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.popup-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 20px;
+  align-items: start;
+}
+.popup-col h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.6;
+  margin-bottom: 15px;
+}.popup-col p {
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+.popup-col strong {
+  display: block;
+  margin-bottom: 4px;
+}
+.popup-col ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.popup-col ul li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+}
+.popup-col ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #e8a8b5;
+  font-size: 14px;
+}
+.popup-col {
+  max-width: 100%;
+}
+.project-popup.active{display:flex;}
+.popup-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.popup-tags span {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #f3f3f3;
+  font-size: 12px;
+}.popup-intro::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #eee;
+  margin-top: 20px;
+}
+
+.skill-row {
+  margin-bottom: 10px;
+}
+
+.skill-row img {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  align-content: left;
+}
+
+
+.popup-header {
+  display: flex;
+  align-items: flex-start; 
+  gap: 16px;
+}
+.popup-icon {
+  width: 48px;
+  height: 48px;
+  background: #f6d6db; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; 
+}
+.popup-icon img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 18px;
+}
+.popup-header-text {
+  display: flex;
+  flex-direction: column;
+}
+.popup-main-title {
+  font-size: 22px;
+  margin: 0;
+}
+.popup-intro {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #555;
+}
+/* Dette ovenstående er til webudvikling popup */
+
 .project-popup{
   position:fixed;
   inset:0;
@@ -415,8 +540,6 @@ h1,h2,h3,.name {
   justify-content:center;
   z-index:9999;
 }
-
-.project-popup.active{display:flex;}
 
 .popup-overlay{
   position:absolute;
@@ -766,6 +889,7 @@ h1,h2,h3,.name {
   ====================================================== */
   
   @media (max-width: 600px) {
+
   
     .top-section {
       grid-template-columns: 1fr;
@@ -1008,3 +1132,5 @@ h1,h2,h3,.name {
         display: none;
       }
     }
+
+    
