@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="img/pintool.svg" style="width:32px;height:32px;">
               </div>
               <div>
-                <h2 class="popup-main-title">UI/UX</h2>
+                <h2 class="popup-main-title">UI/UX design</h2>
                 <p class="popup-intro">
                  Jeg arbejder med UI/UX design med fokus på brugervenlighed, struktur og visuel kvalitet. Jeg har erfaring med at udvikle wireframes, prototyper og færdige interfaces i værktøjer som Figma, og jeg har arbejdet med brugerflows, informationsarkitektur og usability tests for at skabe bedre digitale oplevelser.
                 </p>
@@ -522,7 +522,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <img src="img/heart.svg" style="width:35px;height:35px;">
               </div>
               <div>
-                <h2 class="popup-main-title">Sociale Medier</h2>
+                <h2 class="popup-main-title">SoMe & content</h2>
                 <p class="popup-intro">
                 Arbejder med sociale medier med fokus på synlighed, målretning og performance. Erfaring med opsætning og optimering af Meta-annoncer, udvikling af content samt analyse af kampagner for at skabe målbare resultater.
                 </p>
