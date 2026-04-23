@@ -83,6 +83,15 @@ document.addEventListener("DOMContentLoaded", () => {
     card.addEventListener("click", () => {
 
       const type = card.dataset.project;
+      const cacheKey = "popup_" + type;
+      const cached = sessionStorage.getItem(cacheKey);
+
+      // Use cache for static popups (not sliders)
+      if (cached && type !== "motion" && type !== "illustration") {
+        popupContent.innerHTML = cached;
+        popup.classList.add("active");
+        return;
+      }
       const title = card.querySelector(".project-label").innerText;
 
       popupContent.innerHTML = "";
@@ -242,6 +251,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           </div>
         `;
+        sessionStorage.setItem(cacheKey, popupContent.innerHTML);
       }
 
      else if(type === "branding"){
@@ -348,6 +358,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     </div>
   `;
+  sessionStorage.setItem(cacheKey, popupContent.innerHTML);
 }
 
       else if(type === "web"){
@@ -488,6 +499,7 @@ document.addEventListener("DOMContentLoaded", () => {
       
           </div>
         `;
+        sessionStorage.setItem(cacheKey, popupContent.innerHTML);
         popup.classList.add("active");
       }
 
@@ -629,6 +641,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
           </div>
         `;
+        sessionStorage.setItem(cacheKey, popupContent.innerHTML);
       }
 
       popup.classList.add("active");
