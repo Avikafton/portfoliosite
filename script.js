@@ -98,18 +98,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if(type === "motion"){
         createSlider([
-          `<video class="popup-media active" muted loop autoplay playsinline>
+          `<video class="popup-media" preload="none" muted loop autoplay playsinline>
              <source src="video/ae-video.mp4" type="video/mp4">
            </video>`,
 
-          `<video class="popup-media" muted loop autoplay playsinline>
+          `<video class="popup-media" preload="none" muted loop autoplay playsinline>
              <source src="video/me.webm" type="video/webm">
            </video>`,
 
-          `<video class="popup-media" muted loop autoplay playsinline>
+          `<video class="popup-media" preload="none" muted loop autoplay playsinline>
              <source src="video/chill-video.mp4" type="video/mp4">
            </video>`,
-          `<video class="popup-media" muted loop autoplay playsinline>
+          `<video class="popup-media" preload="none" muted loop autoplay playsinline>
              <source src="video/mac-ae.mp4" type="video/mp4">
            </video>`
         ]);
@@ -505,24 +505,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
       else if(type === "illustration"){
         createSlider([
-          `<img class="popup-media active" src="img/ai1.webp">`,
-          `<img class="popup-media" src="img/ai2.webp">`,
-          `<img class="popup-media" src="img/ai3.webp">`,
-          `<img class="popup-media" src="img/ai4.webp">`,
-          `<img class="popup-media" src="img/ai5.webp">`,
-          `<img class="popup-media" src="img/ai6.webp">`,
-          `<img class="popup-media" src="img/ai7.webp">`,
-          `<img class="popup-media" src="img/ai8.webp">`,
-          `<img class="popup-media" src="img/ai9.webp">`,
-          `<img class="popup-media" src="img/ai10.webp">`,
-          `<img class="popup-media" src="img/ai11.webp">`,
-          `<img class="popup-media" src="img/ai12.webp">`,
-          `<img class="popup-media" src="img/ai13.webp">`,
-          `<img class="popup-media" src="img/ai14.webp">`,
-            `<img class="popup-media" src="img/ai15.webp">`,
-              `<img class="popup-media" src="img/ai16.webp">`,
-                `<img class="popup-media" src="img/ai17.webp">`,
-                  `<img class="popup-media" src="img/ai18.webp">`
+          `<img loading="lazy" decoding="async" class="popup-media active" src="img/ai1.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai2.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai3.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai4.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai5.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai6.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai7.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai8.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai9.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai10.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai11.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai12.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai13.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai14.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai15.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai16.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai17.webp">`,
+          `<img loading="lazy" decoding="async" class="popup-media" src="img/ai18.webp">`
         ]);
       }
 
@@ -681,6 +681,11 @@ document.addEventListener("DOMContentLoaded", () => {
           : items[i].html;
 
         track.insertAdjacentHTML("beforeend", slideHTML);
+
+        const el = track.children[i];
+        if (el && el.tagName === "VIDEO") {
+          el.load();
+        }
       }
 
       media = track.querySelectorAll(".popup-media");
@@ -699,6 +704,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     renderSlide(0);
+
+    // Preload next slide for smoother UX
+    if (items.length > 1) {
+      const nextIndex = 1;
+      if (!track.children[nextIndex]) {
+        const nextHTML = typeof items[nextIndex] === "string"
+          ? items[nextIndex]
+          : items[nextIndex].html;
+
+        track.insertAdjacentHTML("beforeend", nextHTML);
+      }
+    }
 
     right.addEventListener("click", () => {
       current = (current + 1) % items.length;
